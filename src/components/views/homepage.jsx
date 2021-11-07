@@ -1,6 +1,17 @@
 import React, { useState } from "react";
-import Modal from "react-responsive-modal";
+import Modal from "react-modal";
 import Card from "../Card";
+
+export const modalStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
 
 const Homepage = () => {
   const [open, setOpen] = useState(false);
@@ -33,8 +44,7 @@ const Homepage = () => {
               </div>
 
               <div className="col-lg-4">
-                <button onClick={onOpenModal}>Open modal</button>
-                <a href="#" onClick={onOpenModal}>
+                <button onClick={onOpenModal}>
                   <div className="card mb-4 fadeInView">
                     <img
                       className="card-img-top"
@@ -49,7 +59,7 @@ const Homepage = () => {
                       </p>
                     </div>
                   </div>
-                </a>
+                </button>
               </div>
 
               <div className="col-lg-4">
@@ -76,7 +86,11 @@ const Homepage = () => {
                 />
               </div>
 
-              <Modal open={open} onClose={onCloseModal} center>
+              <Modal
+                isOpen={open}
+                onRequestClose={onCloseModal}
+                styles={modalStyles}
+              >
                 <div className="sealBeachForm">
                   <h4>Acean - Seal Beach 12"</h4>
                   <div className="row">

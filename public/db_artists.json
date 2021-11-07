@@ -1,0 +1,350 @@
+{
+  "Artists": [
+    {
+      "id": 1,
+      "name": "ACEAN",
+      "text": "Anthony Green & Justin Morgan work together as Acean to create their version of Detroit Techno influenced by the various studio locations from the past few years.",
+      "textFull": "Anthony Green & Justin Morgan have been writing music together off/on for decades. Starting with punk rock bands in the early 90s to hip hop collaborations with others a few years later, they soon found additional common interest in the more chill vibes of House and Detroit Techno.  Joined with the ever evolving quest to try out new & vintage gear, ACEAN was born in southern California during some summer studio explorations.  Their vision is simple: make good music - keep it interesting.  No definite style rules apply, but the electro classics tend to inspire when the machines start to warm up! ",
+      "style": "Detroit Techno, House",
+      "image": "artists_ACEAN_01.jpg",
+      "featuredTracks": [
+        {
+          "track": 1,
+          "title": "Normal People",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=2544662741/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/normal-people",
+          "albumTitle": "Normal People"
+        },
+        {
+          "track": 2,
+          "title": "J-UZMIR",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=2453870538/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/normal-people",
+          "albumTitle": "Normal People"
+        },
+        {
+          "track": 3,
+          "title": "Break The Stereo",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=1226633224/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/normal-people",
+          "albumTitle": "Normal People"
+        },
+        {
+          "track": 4,
+          "title": "The Document",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=3297826113/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/normal-people",
+          "albumTitle": "Normal People"
+        },
+        {
+          "track": 5,
+          "title": "getElementById",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=1210975386/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/normal-people",
+          "albumTitle": "Normal People"
+        },
+        {
+          "track": 6,
+          "title": "LIGO",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1737388990/size=small/bgcol=ffffff/linkcol=333333/track=4627843/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/normal-people",
+          "albumTitle": "Normal People"
+        }
+      ],
+      "selectedReleases": [
+        {
+          "id": 1,
+          "title": "Manhattan",
+          "image": "SOL017.jpg",
+          "cat": "SOL017",
+          "link": 20
+        },
+        {
+          "id": 2,
+          "title": "Seal Beach",
+          "image": "SOL012.jpg",
+          "cat": "SOL012",
+          "link": 15
+        },
+        {
+          "id": 3,
+          "title": "Squeeze / Squiggle",
+          "image": "SOL016.jpg",
+          "cat": "SOL016",
+          "link": 19
+        }
+      ],
+      "media": [
+        {
+          "video": 1,
+          "title": "Seal Beach promo",
+          "image": "ACEAN_Media_01.jpg",
+          "url": "https://www.youtube.com/embed/jvrZrsrwzG4"
+        },
+        {
+          "video": 2,
+          "title": "Manhattan promo",
+          "image": "ACEAN_Media_02.jpg",
+          "url": "https://www.youtube.com/embed/yduTFeTv-Ms"
+        },
+        {
+          "video": 3,
+          "title": "Modded SH-101 in studio",
+          "image": "ACEAN_Media_03.jpg",
+          "url": "https://www.youtube.com/embed/uFwW20W9vV4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Digalogue",
+      "text": "Strict electro alter ego from Justin Morgan.",
+      "textFull": "Explorations in more static, cold expressionism finds Justin Morgan using the vehicle, Digalogue, to conjure this solo electro output.  While leaning on some existing journeys by others in the vast pool of this genre, Digalogue creates a loose & flexible approach in attempt to merge ideals of acid and electro into one. ",
+      "style": "Electro, Techno, IDM",
+      "image": "artists_Digalogue_01.jpg",
+      "featuredTracks": [
+        {
+          "track": 1,
+          "title": "Robot Butler",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=2731487020/transparent=true/",
+          "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+          "albumTitle": "Seal Beach"
+        },
+        {
+          "track": 2,
+          "title": "Neon Glow",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=550366697/transparent=true/",
+          "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+          "albumTitle": "Seal Beach"
+        },
+        {
+          "track": 3,
+          "title": "Madison Winter B/W",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=2618353492/transparent=true/",
+          "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+          "albumTitle": "Manhattan"
+        },
+        {
+          "track": 4,
+          "title": "Encyclical Blood Moon",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=3740075141/transparent=true/",
+          "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+          "albumTitle": "Manhattan"
+        },
+        {
+          "track": 5,
+          "title": "Ray Bay",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=720174632/size=small/bgcol=ffffff/linkcol=333333/track=1626595246/transparent=true/",
+          "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+          "albumTitle": "Seal Beach"
+        },
+        {
+          "track": 6,
+          "title": "Squiggle",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1244650774/size=small/bgcol=ffffff/linkcol=333333/track=966306371/transparent=true/",
+          "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+          "albumTitle": "Squeeze / Squiggle"
+        },
+        {
+          "track": 7,
+          "title": "Hot Ngam",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1983512245/size=small/bgcol=ffffff/linkcol=333333/track=33400534/transparent=true/",
+          "albumLink": "http://acean.bandcamp.com/album/seal-beach",
+          "albumTitle": "Manhattan"
+        }
+      ],
+      "selectedReleases": [
+        {
+          "id": 1,
+          "title": "Normal People",
+          "image": "SOL020.jpg",
+          "cat": "SOL020",
+          "link": 23
+        }
+      ],
+      "media": [
+        {
+          "video": 1,
+          "title": "Digalogue C4D/AE",
+          "image": "Digalogue_Media_01.jpg",
+          "url": "https://www.youtube.com/embed/8T5iwTpr1dA"
+        },
+        {
+          "video": 2,
+          "title": "Digalogue - getElementById",
+          "image": "Digalogue_Media_02.jpg",
+          "url": "https://www.youtube.com/embed/JjQDtxKLyY0"
+        },
+        {
+          "video": 3,
+          "title": "Digalogue - Intermission",
+          "image": "Digalogue_Media_03.jpg",
+          "url": "https://www.youtube.com/embed/c9d-3gGv59M"
+        },
+        {
+          "video": 4,
+          "title": "Digalogue - Normal People",
+          "image": "Digalogue_Media_04.jpg",
+          "url": "https://www.youtube.com/embed/ER9bWGjcttU"
+        },
+        {
+          "video": 5,
+          "title": "Digalogue (future)",
+          "image": "Digalogue_Media_05.jpg",
+          "url": "https://www.youtube.com/embed/Aknwp7hDL-8"
+        },
+        {
+          "video": 6,
+          "title": "Digalogue (dream)",
+          "image": "Digalogue_Media_06.jpg",
+          "url": "https://www.youtube.com/embed/KCq3F1TXINQ"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rusuden",
+      "text": "Originating from KY in 1999, Rusuden is Justin Morgan’s most used platform for electronic/instrumental music output. ",
+      "textFull": "For many years, Justin Morgan has been creating electronic music as Rusuden.  What started out as a side project during the late 90s became a primary focus for musical output allowing independent study into the past, present & future of various forms of Techno & House.  Labeled by some as IDM, Braindance, and Acid, Rusuden releases have continued to evolve over time into more of a live, recorded studio-performance approach - instead of an all “in the box” meticulously edited methology.  His most recent EPs and cassette have showcased his love for acid style basslines and old-school drum machine rhythms.",
+      "style": "Acid, Techno, IDM/Braindance",
+      "image": "artists_Rusuden_01a.jpg",
+      "featuredTracks": [
+        {
+          "track": 1,
+          "title": "Bone, Feather, Figure",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=858284836/size=small/bgcol=ffffff/linkcol=333333/track=806946172/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/volume-3",
+          "albumTitle": "Volume 3"
+        },
+        {
+          "track": 2,
+          "title": "Spirit Animal",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=2526432902/size=small/bgcol=ffffff/linkcol=333333/track=451066591/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/volna",
+          "albumTitle": "Volna"
+        },
+        {
+          "track": 3,
+          "title": "Volna (Wave Machine)",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=2526432902/size=small/bgcol=ffffff/linkcol=333333/track=8813392/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/volna",
+          "albumTitle": "Volna"
+        },
+        {
+          "track": 4,
+          "title": "Snogon",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1218959398/size=small/bgcol=ffffff/linkcol=333333/track=3412543248/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/fe-ix-x-171-a",
+          "albumTitle": "Fe IX/X 171 A"
+        },
+        {
+          "track": 5,
+          "title": "Acid Abyss",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=1390409737/size=small/bgcol=ffffff/linkcol=333333/track=1989559885/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/death-by-din-sync",
+          "albumTitle": "Death By Din Sync"
+        },
+        {
+          "track": 6,
+          "title": "3am Rave R",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=2248739308/size=small/bgcol=ffffff/linkcol=333333/track=758850326/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/volume-2",
+          "albumTitle": "Volume 2"
+        },
+        {
+          "track": 7,
+          "title": "Hello Human",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=3306905613/size=small/bgcol=ffffff/linkcol=333333/track=1540954270/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/october",
+          "albumTitle": "October"
+        },
+        {
+          "track": 8,
+          "title": "Fifteen",
+          "url": "https://bandcamp.com/EmbeddedPlayer/album=77329372/size=small/bgcol=ffffff/linkcol=333333/track=275892109/transparent=true/",
+          "albumLink": "http://music.rusuden.com/album/themes-from-a-distant-planetoid",
+          "albumTitle": "Themes From A Distant Planetoid"
+        }
+      ],
+      "selectedReleases": [
+        {
+          "id": 1,
+          "title": "Volume 3",
+          "image": "SOL018.jpg",
+          "cat": "SOL018",
+          "link": 21
+        },
+        {
+          "id": 2,
+          "title": "Volna",
+          "image": "SOL013.jpg",
+          "cat": "SOL013",
+          "link": 16
+        },
+        {
+          "id": 3,
+          "title": "Fe IX/X 171 A",
+          "image": "SOL003.jpg",
+          "cat": "SOL003",
+          "link": 4
+        }
+      ],
+      "media": [
+        {
+          "video": 1,
+          "title": "Rusuden A/B Promo",
+          "image": "Rusuden_Media_01.jpg",
+          "url": "https://www.youtube.com/embed/WByzzzsCQjw?rel=0"
+        },
+        {
+          "video": 2,
+          "title": "Live track: Machinedrum UW+, etc",
+          "image": "Rusuden_Media_02.jpg",
+          "url": "https://www.youtube.com/embed/deDin2bZaJg"
+        },
+        {
+          "video": 3,
+          "title": "Live track: SH-101, MiniBrute, etc",
+          "image": "Rusuden_Media_03.jpg",
+          "url": "https://www.youtube.com/embed/4xqaRYFePM4"
+        },
+        {
+          "video": 4,
+          "title": "Unreleased 'Beekeeper' track",
+          "image": "Rusuden_Media_04.jpg",
+          "url": "https://www.youtube.com/embed/o11mW2N-0h4"
+        },
+        {
+          "video": 5,
+          "title": "Remix of Grimes song 'Orphia'",
+          "image": "Rusuden_Media_05.jpg",
+          "url": "https://www.youtube.com/embed/zQz-zKTpSzs"
+        },
+        {
+          "video": 6,
+          "title": "Reversed Snow (Monomachine)",
+          "image": "Rusuden_Media_06.jpg",
+          "url": "https://www.youtube.com/embed/WnDsWKuwDPI"
+        },
+        {
+          "video": 7,
+          "title": "Roland SH-7 showcase",
+          "image": "Rusuden_Media_07.jpg",
+          "url": "https://www.youtube.com/embed/Pvs0_jeBJBk"
+        },
+        {
+          "video": 8,
+          "title": "Perfourmer + TB-303",
+          "image": "Rusuden_Media_08.jpg",
+          "url": "https://www.youtube.com/embed/N5GUN2wEgzw"
+        },
+        {
+          "video": 9,
+          "title": "Roland SH-5 Arpeggio",
+          "image": "Rusuden_Media_09.jpg",
+          "url": "https://www.youtube.com/embed/GHUWXH_2wnQ"
+        }
+      ]
+    }
+  ]
+}
