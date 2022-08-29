@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 
-import { modalStyles } from "../views/homepage";
+import { modalStyles } from "../Homepage";
 
 const Footer = () => {
   const [open, setOpen] = useState(false);
@@ -19,7 +19,7 @@ const Footer = () => {
                 Privacy Policy
               </a>
             </p>
-            <p>&copy; 2021 Soho Six Records</p>
+            <p>&copy; 2022 Soho Six Records</p>
           </div>
           <div className="col-6 social-icons">
             <ul>

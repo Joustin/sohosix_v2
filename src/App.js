@@ -7,8 +7,9 @@ import "./App.scss";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import HomePage from "./components/views/homepage";
-import ArtistsMain from "./components/views/artistsMain";
+import HomePage from "./components/Homepage";
+import ArtistsMain from "./components/Artists";
+// import ArtistsFocus from "./components/views/artistsFocus";
 
 // Create a client
 const queryClient = new QueryClient({
@@ -29,6 +30,7 @@ const App = () => {
             <Switch>
               <Route exact path="/" component={HomePage} />
               <Route exact path="/Artists" component={ArtistsMain} />
+              <Route exact path="/Artists/:id" component={ArtistsMain} />
             </Switch>
           </main>
           <Footer />

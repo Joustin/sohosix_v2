@@ -13,13 +13,13 @@ const Header = () => {
       </a>
 
       <nav className="my-1 my-md-2">
-        <NavLink exact to="/" className="nav-link">
+        <NavLink id="HomeNav" exact to="/" className="nav-link">
           Home<span className="sr-only">(current)</span>
         </NavLink>
-        <NavLink to="/Artists" className="nav-link">
+        <NavLink id="ArtistsNav" to="/Artists" className="nav-link">
           Artists
         </NavLink>
-        <NavLink to="/Releases" className="nav-link">
+        <NavLink id="ReleasesNav" to="/Releases" className="nav-link">
           Releases
         </NavLink>
       </nav>
