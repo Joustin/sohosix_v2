@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Modal from "react-modal";
-import { modalStyles } from "../Homepage";
+import Modal from "../Modal";
 
 const ArtistFocus = ({ artist, clickModal, open, activeModal }) => {
   return (
@@ -85,10 +84,6 @@ const ArtistFocus = ({ artist, clickModal, open, activeModal }) => {
 
               {artist.media.map((m, index) => (
                 <div key={m.video} className="col-md-4">
-                  {/* <a href="#" onClick={(e) => clickHandler(e, index)}>
-                      </a> */}
-
-                  {/* <button onClick={(e) => clickHandler(e, index)}> */}
                   <button onClick={() => clickModal(index)}>
                     <img
                       className="media img-fluid"
@@ -102,8 +97,7 @@ const ArtistFocus = ({ artist, clickModal, open, activeModal }) => {
                 <Modal
                   isOpen={open}
                   onRequestClose={() => clickModal()}
-                  styles={modalStyles}
-                  center
+                  dismissable
                 >
                   <h4>{artist?.media[activeModal].title}</h4>
                   <iframe

@@ -9,7 +9,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./components/Homepage";
 import ArtistsMain from "./components/Artists";
-// import ArtistsFocus from "./components/views/artistsFocus";
+import ReleasesMain from "./components/Releases";
 
 // Create a client
 const queryClient = new QueryClient({
@@ -31,6 +31,8 @@ const App = () => {
               <Route exact path="/" component={HomePage} />
               <Route exact path="/Artists" component={ArtistsMain} />
               <Route exact path="/Artists/:id" component={ArtistsMain} />
+              <Route exact path="/Releases" component={ReleasesMain} />
+              <Route exact path="/Releases/:id" component={ReleasesMain} />
             </Switch>
           </main>
           <Footer />

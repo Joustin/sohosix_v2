@@ -10,21 +10,6 @@ const ArtistsLanding = ({ artists }) => {
             {artists.map((p) => (
               <div key={p.id} className="row">
                 <div className="col-md-12">
-                  {/* <button onClick={() => getArtist(p.id)}>
-                    <div className="whiteBox">
-                      <div className="img-box">
-                        <img
-                          className="img-fluid"
-                          src={`/img/artists/${p.image}`}
-                          alt={`${p.name}`}
-                        />
-                      </div>
-                      <div className="aboutArtist">
-                        <p className="title">{p.name}</p>
-                        <p>{p.text}</p>
-                      </div>
-                    </div>
-                  </button> */}
                   <Link to={`/Artists/${p.id}`}>
                     <div className="whiteBox">
                       <div className="img-box">

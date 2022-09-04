@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
 import axios from "axios";
 import { useQuery } from "react-query";
-// import Modal from "react-modal";
-// import { modalStyles } from "../Homepage";
 import ArtistsLanding from "./artistsLanding";
 import ArtistFocus from "./artistFocus";
-// import { useArtists } from "../../resources/artists";
-
-const Comp_WhiteBG = "white";
+import { bgColorSwitch } from "../../utilities";
+import Loading from "../Loading";
 
 const ArtistsMain = (props) => {
   const [artists, setArtists] = useState([]);
@@ -16,11 +12,7 @@ const ArtistsMain = (props) => {
   const [open, setOpen] = useState(false);
   const [activeModal, setActiveModal] = useState(null);
 
-  // const onOpenModal = () => setOpen(true);
-  // const onCloseModal = () => setOpen(false);
-
   const clickModal = (index) => {
-    console.log("working?? ");
     if (open) {
       setActiveModal(null);
       setOpen(!open);
@@ -36,26 +28,18 @@ const ArtistsMain = (props) => {
     axios("/db_artists.json")
   );
 
-  // const artistsNav = document.querySelector("#ArtistsNav");
-  // console.log("nav?: ", artistsNav);
-
   useEffect(() => {
-    if (Object.values(props.match.params).length) {
-      document.body.classList.add(Comp_WhiteBG);
-    } else {
-      document.body.classList.remove(Comp_WhiteBG);
-    }
+    bgColorSwitch(props);
 
     window.scroll({
       top: 0,
       behavior: "smooth",
     });
-  }, [props, artist]);
+  }, [props]);
 
   useEffect(() => {
     if (data) {
       setArtists(data.data.Artists);
-      console.log("artists: ", artists);
     }
   }, [data, artists]);
 
@@ -68,7 +52,6 @@ const ArtistsMain = (props) => {
       const selectedArtist = artists.filter((artist) => {
         return artist.id === parseInt(id);
       });
-      console.log("--- Setting Artist ----");
       setArtist(selectedArtist[0]);
     };
 
@@ -78,8 +61,7 @@ const ArtistsMain = (props) => {
   }, [props, artists]);
 
   if (isLoading || isIdle) {
-    //   @TODO ... Making a loading Component, just for fun
-    return null;
+    return <Loading />;
   }
 
   if (isError) {
@@ -87,12 +69,6 @@ const ArtistsMain = (props) => {
     console.log("error: ", error.message);
     return "There's a problem";
   }
-
-  console.log("PROPS PARAMS: ", props.match.params);
-  console.log("PROPS PARAMS VALUES: ", Object.values(props.match.params));
-  console.log("activeModal: ", activeModal);
-  console.log("open: ", open);
-  console.log("artist: ", artist);
 
   if (
     artist &&

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Modal from "react-modal";
-
-import { modalStyles } from "../Homepage";
+import Modal from "../Modal";
 
 const Footer = () => {
   const [open, setOpen] = useState(false);
@@ -14,18 +12,17 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <p>
-              <a href="#" onClick={onOpenModal}>
-                Privacy Policy
-              </a>
-            </p>
+            {/* @TODO ... Fix this Modal */}
+            {/* <p>
+              <button onClick={onOpenModal}>Privacy Policy</button>
+            </p> */}
             <p>&copy; 2022 Soho Six Records</p>
           </div>
           <div className="col-6 social-icons">
             <ul>
               <li>
                 <a
-                  href="http://sohosix.bandcamp.com/"
+                  href="http://rusuden.bandcamp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -61,7 +58,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <Modal open={open} onClose={onCloseModal} center>
+          <Modal isOpen={open} onRequestClose={onCloseModal} dismissable>
             <div className="policyModal">
               <h4>Privacy Policy</h4>
               <div className="row">

@@ -1,17 +1,6 @@
 import React, { useState } from "react";
-import Modal from "react-modal";
+import Modal from "../Modal";
 import Card from "../Card";
-
-export const modalStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-  },
-};
 
 const Homepage = () => {
   const [open, setOpen] = useState(false);
@@ -86,11 +75,7 @@ const Homepage = () => {
                 />
               </div>
 
-              <Modal
-                isOpen={open}
-                onRequestClose={onCloseModal}
-                styles={modalStyles}
-              >
+              <Modal isOpen={open} onRequestClose={onCloseModal} dismissable>
                 <div className="sealBeachForm">
                   <h4>Acean - Seal Beach 12"</h4>
                   <div className="row">
